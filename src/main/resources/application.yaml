@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://DESKTOP-1NVGM41;encrypt=true;trustServerCertificate=true;databaseName=companyDb
+    username: wcfuser
+    password: root
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+jpa:
+show-sql: true
+server:
+port: 8080
